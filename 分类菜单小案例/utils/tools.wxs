@@ -5,6 +5,11 @@ function splitPhone (str){
   arr.splice(8,0,'-')
  return arr.join('')
 }
+function arradd(str){
+  if(str === '老师')  return true
+  return false
+}
 module.exports={
-  splitPhone:splitPhone
+  splitPhone:splitPhone,
+  arradd:arradd
 }

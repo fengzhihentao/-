@@ -1,0 +1,2 @@
+<view>{{tools.arradd("老师")}}</view>
+<wxs src="../../utils/tools.wxs" module="tools"></wxs>
