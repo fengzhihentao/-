@@ -1,0 +1,13 @@
+function spliStr(str) {
+  if(str.length === 11){
+    var arr = str.split('')
+    arr.splice(3,0,'-')
+    arr.splice(8,0,'-')
+    console.log(arr);
+    return arr.join('')
+  }
+  return str
+}
+module.exports = {
+  spliStr:spliStr
+}

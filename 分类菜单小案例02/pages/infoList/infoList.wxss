@@ -1,0 +1,20 @@
+.info-list{
+display: flex;
+margin: 15rpx;
+border: 1rpx solid #eee;
+box-shadow: 1rpx 1rpx 6rpx #efefef;
+}
+.info-list .img{
+  width: 250rpx;
+  height: 250rpx;
+  padding-right: 15rpx;
+}
+.info-item{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 24rpx;
+}
+.info-title{
+  font-weight: 700;
+}
