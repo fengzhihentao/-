@@ -1,0 +1,18 @@
+<!-- 轮播图 -->
+<swiper indicator-dots circular>
+<swiper-item wx:for="{{slideList}}" wx:key='id'>
+<image src="{{item.image}}"></image>
+</swiper-item>
+</swiper>
+<!-- 列表项 -->
+<view class="sudoku-list">
+  <navigator wx:for="{{sudokuList}}" wx:key='id' class="sudoku-item" url="/pages/shoplist/shoplist?id={{item.id}}&name={{item.name}}">
+    <image src="{{item.icon}}"></image>
+    <text>{{item.name}}</text>
+  </navigator>
+</view>
+<!-- 图片区域 -->
+<view class="foot-item">
+  <image src="../../static/logo.png" mode="widthFix"></image>
+  <image src="../../static/logo.png" mode="widthFix"></image>
+</view>

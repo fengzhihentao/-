@@ -1,0 +1,6 @@
+<view>{{msg}}</view>
+<image src="{{imgUrl}}"></image>
+<view >{{randomNum>5?'随机数大于5':"随机数小于五"}}</view> 
+<view>{{randomNum1*100}}</view>
+<button bindtap="getInfo">点击发送get请求</button>
+<button bindtap="postInfo">点击发送get请求</button>

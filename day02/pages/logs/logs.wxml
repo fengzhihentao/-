@@ -1,0 +1,4 @@
+<navigator open-type="switchTab" url="/pages/index/index">跳转到首页</navigator>
+<view>count值是{{count}}</view>
+<button bindtap="addCount">count+1</button>
+<view class="skyblue-box"></view>

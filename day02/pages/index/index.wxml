@@ -1,0 +1,11 @@
+<!-- <navigator open-type="switchTab" url="/pages/logs/logs">跳转到logs</navigator> -->
+<navigator url="/pages/logs/logs" open-type="switchTab">下一页</navigator>
+<!-- <navigator url="/pages/info/info" open-type="navigate">非taber</navigator> -->
+<navigator url="/pages/info/info">非</navigator>
+<!-- 编程式导航跳转到tabbar -->
+<button bindtap="gotoMsg">编程式跳转</button>
+<button bindtap="gotoinfo">跳转到非tabBar</button>
+<!-- 声明式导航传参 -->
+<navigator url="/pages/info/info?name=zs&age=20">跳转到logs页面</navigator>
+<!-- 编程式导航传参 -->
+<button bindtap="gotoinfoTwo">编程式导航传参</button>

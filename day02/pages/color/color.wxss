@@ -1,0 +1,10 @@
+/* pages/color/color.wxss */
+.color-item{
+  border: 1rpx solid #efefef;
+  line-height: 200rpx;
+  text-align: center;
+  text-shadow: 0rpx  0rpx 5rpx #fff;
+  box-shadow: 0rpx 0rpx 6rpx #fff;
+  margin: 15rpx;
+  border-radius: 15rpx;
+}

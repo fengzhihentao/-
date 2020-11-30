@@ -1,0 +1,23 @@
+.info{
+  display: flex;
+  padding: 15rpx;
+  border: 1rpx solid #efefef;
+  margin: 15rpx;
+  border-radius: 8rpx;
+  box-shadow: 1rpx 1rpx 8rpx #eee;
+}
+.img{
+  display: block;
+  width: 250rpx;
+  height: 250rpx;
+  margin-right:15rpx;
+}
+.info-item{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 24rpx;
+}
+.info-title{
+  font-weight: 700;
+}
