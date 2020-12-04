@@ -1,0 +1,8 @@
+<!-- 局部引用 -->
+<my-test1 max='11'></my-test1>
+<view></view>
+<my-test2></my-test2>
+<swiper autoplay circular vertical>
+  <swiper-item>lalal</swiper-item>
+  <swiper-item>totot</swiper-item>
+</swiper>

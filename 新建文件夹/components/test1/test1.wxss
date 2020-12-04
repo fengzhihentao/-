@@ -1,0 +1,4 @@
+/* components/test1.wxss */
+.box{
+  font-size: 50px;
+}

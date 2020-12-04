@@ -1,0 +1,12 @@
+.bgc-box{
+  width: 750rpx;
+  height: 200px;
+  background-color: pink;
+  color: aliceblue;
+  line-height: 200px;
+  text-align: center;
+}
+.btn-flex{
+  display: flex;
+  justify-content: space-between;
+}

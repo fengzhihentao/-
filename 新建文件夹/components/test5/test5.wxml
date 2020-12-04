@@ -1,0 +1,3 @@
+<!-- 父子通讯 -->
+<view>子组件{{count}}</view>
+<button bindtap="add">+1</button>

@@ -1,0 +1,4 @@
+<!--components/test1.wxml-->
+<view>{{max}}</view>
+<view>{{conent}}</view>
+<button bindtap="getConent">conent</button>

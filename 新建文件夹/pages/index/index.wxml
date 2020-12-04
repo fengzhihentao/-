@@ -1,0 +1,6 @@
+<view></view>
+<!-- 局部引用 -->
+<my-test1 max="12"></my-test1>
+<!-- 全局引用 -->
+<my-test2></my-test2>
+<view class="box">啦啦啦</view>

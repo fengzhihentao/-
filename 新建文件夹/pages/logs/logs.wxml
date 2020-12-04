@@ -1,0 +1,7 @@
+<my-test4>
+<view slot="bf">before</view>
+<view slot="at">after</view>
+</my-test4>
+<view>============================================</view>
+<my-test5 count="{{count}}"></my-test5>
+<view>{{count}}</view>

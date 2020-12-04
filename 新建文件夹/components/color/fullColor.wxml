@@ -1,0 +1,6 @@
+<view class="bgc-box" style="background-color:rgb({{fullColor}})">{{fullColor}}</view>
+<view class="btn-flex">
+  <button bindtap="bgr">r</button>
+<button bindtap="bgg">g</button>
+<button bindtap="bgb">b</button>  
+</view>

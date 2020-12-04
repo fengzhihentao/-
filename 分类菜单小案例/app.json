@@ -2,8 +2,7 @@
   "pages":[
     "pages/index/index",
     "pages/logs/logs",
-   "pages/my/my",
-   "pages/shoplist/shoplist"
+   "pages/my/my"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -29,6 +28,10 @@
       "selectedIconPath": "./static/tabs/contact-active.png"
     }
   ]
+  },
+  "usingComponents": {
+    "my-test1":"/components/test1/test",
+    "my-test2":"/components/test2/test"
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"

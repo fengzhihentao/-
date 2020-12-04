@@ -1,0 +1,3 @@
+<slot name="bf"></slot>
+<view>test4</view>
+<slot name="at"></slot>
